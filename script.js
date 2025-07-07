@@ -308,6 +308,16 @@ document.addEventListener('DOMContentLoaded', function () {
             slide.style.opacity = i === 0 ? '1' : '0';
             slide.style.transform = 'none';
         });
+        
+        // Set static values for mobile (no animation)
+        const firstSlide = slides[0];
+        if (firstSlide) {
+            const productivityNum = firstSlide.querySelector('#productivity-number');
+            const productivityBar = firstSlide.querySelector('#productivity-bar');
+            if (productivityNum) productivityNum.textContent = '85%';
+            if (productivityBar) productivityBar.setAttribute('width', 240 * 0.85);
+        }
+        
         // Disable slideshow on mobile
         return;
     }
@@ -336,8 +346,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // --- Hero Metric Animation Logic ---
     function animateMetricSlide(idx) {
-        // Disable animations on mobile
+        // Disable animations on mobile for better performance
         if (window.innerWidth <= 768) {
+            console.log('Mobile detected - skipping animations');
             return;
         }
         

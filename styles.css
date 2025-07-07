@@ -708,11 +708,19 @@ textarea.form-input {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    /* Disable animations on mobile */
-    * {
+    /* Keep important animations on mobile */
+    .glow-line {
+        animation: glowMove 3s ease-in-out infinite !important;
+    }
+    
+    /* Disable only heavy animations on mobile for performance */
+    .hero-slide {
         animation: none !important;
         transition: none !important;
-        transform: none !important;
+    }
+    
+    .feature-card::before {
+        animation: none !important;
     }
     
     /* Disable hover effects on mobile */
@@ -851,10 +859,10 @@ textarea.form-input {
         transform: none !important;
     }
     
-    /* Disable glow line animation on mobile */
+    /* Keep glow line animation on mobile */
     .glow-line {
-        animation: none !important;
-        opacity: 0.5;
+        animation: glowMove 3s ease-in-out infinite;
+        opacity: 0.8;
     }
 }
 
