@@ -708,9 +708,15 @@ textarea.form-input {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    /* Keep important animations on mobile */
+    /* Explicitly enable important animations on mobile */
     .glow-line {
         animation: glowMove 3s ease-in-out infinite !important;
+        opacity: 0.8 !important;
+    }
+    
+    /* Enable particle animations on mobile */
+    .particle {
+        animation: float 6s ease-in-out infinite !important;
     }
     
     /* Disable only heavy animations on mobile for performance */
@@ -721,6 +727,11 @@ textarea.form-input {
     
     .feature-card::before {
         animation: none !important;
+    }
+    
+    /* Keep smooth scrolling on mobile */
+    html {
+        scroll-behavior: smooth !important;
     }
     
     /* Disable hover effects on mobile */
