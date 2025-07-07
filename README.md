@@ -1,6 +1,8 @@
-# Dark Glow Template 🚀
+# Midwest AI Solutions Website 🚀
 
-A modern, responsive website template with a dark theme and glowing effects inspired by Framer's design aesthetic. Perfect for portfolios, business websites, or any project that needs a sleek, professional look.
+A modern, responsive website for Midwest AI Solutions with a dark theme and glowing effects. Perfect for showcasing AI tools, services, and company information.
+
+**Live Demo:** https://icemountains.github.io/midwest-ai-solutions-13th/
 
 ## ✨ Features
 
