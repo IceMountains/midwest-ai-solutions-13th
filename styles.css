@@ -1264,3 +1264,20 @@ html {
         position: absolute !important;
     }
 } 
+
+.get-in-touch-cta {
+  text-align: center;
+  padding: 48px 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.get-in-touch-cta h2 {
+  margin-bottom: 12px;
+}
+.get-in-touch-cta p {
+  margin-bottom: 24px;
+}
+.get-in-touch-cta .btn {
+  margin: 0 auto;
+  display: inline-block;
+} 
