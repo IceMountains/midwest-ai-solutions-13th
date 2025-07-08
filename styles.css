@@ -533,6 +533,12 @@ section {
     box-shadow: 0 2px 12px #00eaff44;
     cursor: pointer;
     transition: background 0.3s, box-shadow 0.3s;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Button-like behavior */
+    vertical-align: middle; /* Align with text */
+}
+.cta-btn:visited {
+    color: #fff; /* Keep color consistent for visited links */
 }
 .cta-btn:hover {
     background: linear-gradient(90deg, #ff29c3, #a259ff, #00eaff);
