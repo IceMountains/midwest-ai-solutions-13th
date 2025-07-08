@@ -1,0 +1,53 @@
+CANVAS AI BUSINESS CARD PROMPT FOR RIVER CITY AI
+
+Create a professional business card design for River City AI with the following specifications:
+
+BRAND IDENTITY:
+- Company: River City AI
+- Industry: AI Solutions & Website Development
+- Location: Midwest-based company
+- Brand Colors: Primary gradient from #00d4ff (cyan) to #ff00ff (magenta)
+- Style: Modern, tech-forward, professional yet approachable
+
+DESIGN REQUIREMENTS:
+- Layout: Standard business card dimensions (3.5" x 2")
+- Background: Dark theme with gradient elements or subtle tech patterns
+- Typography: Clean, modern fonts (Inter or similar sans-serif)
+- Logo: Include a simple river wave + cityscape icon with AI dot
+- Visual Elements: Incorporate subtle tech/digital elements, circuit patterns, or flowing lines
+
+CONTENT TO INCLUDE:
+- Company Name: "River City AI" (prominent)
+- Tagline: "AI Solutions & Website Development" or "Empowering Business with AI"
+- Services: "AI Tooling • Web Development • Data Analytics"
+- Contact: [Your Name], [Your Title]
+- Website: rivercityai.com
+- Email: [Your Email]
+- Phone: [Your Phone]
+- Location: "Midwest-based" or specific city
+
+DESIGN STYLE:
+- Modern and minimalist
+- Professional tech aesthetic
+- Gradient accents using brand colors
+- Subtle glow effects or shadows
+- Clean, readable typography
+- Balanced white space
+
+SPECIFIC INSTRUCTIONS:
+1. Use the brand gradient (#00d4ff to #ff00ff) strategically
+2. Include a small river wave + cityscape icon with AI dot
+3. Make the company name stand out prominently
+4. Use dark background with light text for contrast
+5. Add subtle tech elements (circuit lines, dots, or geometric shapes)
+6. Ensure all text is highly readable
+7. Keep the design clean and uncluttered
+8. Include a QR code option linking to rivercityai.com
+
+VARIATIONS TO CREATE:
+1. Standard business card layout
+2. Alternative with more prominent logo
+3. Version with QR code integration
+4. Minimalist version with just essential info
+
+Please create multiple variations so I can choose the best design for my business needs. 
